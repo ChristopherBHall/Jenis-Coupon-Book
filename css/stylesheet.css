@@ -1,0 +1,156 @@
+body{
+  padding: 0px;
+}
+
+@media (min-width: 0px) and (orientation:landscape) {
+
+      .coupon{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: 0;
+      }
+      .acceptbox{
+        width: 100%;
+        height: 40vh;
+
+        z-index: 4;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 30vh;
+      }
+      #yes{
+        width: 100%;
+        height: 15vh;
+
+        z-index: 6;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 50vh;
+      }
+      #areyousure{
+        z-index: 9;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 32vh;
+        font-size: 4vh;
+        text-align: center;
+      }
+      #no{
+        width: 100%;
+        height: 15vh;
+
+        z-index: 6;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 50vh;
+      }
+
+}
+
+@media (min-width: 0px) and (orientation:portrait) {
+
+      .coupon{
+        width: 100vw;
+        height: 50vh;
+        position: absolute;
+        z-index: 0;
+      }
+      .acceptbox{
+        width: 100%;
+        height: 30vh;
+
+        z-index: 4;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20vh;
+      }
+      #yes{
+        width: 100%;
+        height: 10vh;
+
+        z-index: 6;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 30vh;
+      }
+      #areyousure{
+        z-index: 9;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20vh;
+        font-size: 2vh;
+        text-align: center;
+      }
+      #no{
+        width: 100%;
+        height: 10vh;
+
+        z-index: 6;
+        position: absolute;
+        display:none;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 30vh;
+      }
+
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navigationbar{
+  background: #1c40ac;
+  height: 100vh;
+  padding: 0px;
+  width: 35vw;
+  position: absolute;
+  overflow: hidden;
+}
+
+#couponcontroller {
+  background: silver;
+  height: 400px;
+  text-align: center;
+  font: 30px/300px Helvetica, Arial, sans-serif;
+}
+
+
+
+#graybox{
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  display:none;
+  margin-left:auto;
+  margin-right:auto;
+  opacity: 0.7;
+}
+.sidebar-wrapper{
+  position: absolute;
+  overflow: hidden;
+  padding: 0px;
+  background: #1c40ac;
+}
+.c-slider__slide{
+  position: relative;
+  height: 100vh;
+}
+.c-slider__container{
+  position: relative;
+}
